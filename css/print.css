@@ -1,0 +1,72 @@
+* {
+color: black;
+background: transparent;
+font-size: 12pt;
+font-family: "Times New Roman", serif;
+}
+
+@page { margin: .5in;
+}
+
+
+#container {
+  margin:0;
+  width: 100%;
+}
+
+address {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+nav ul li {
+  display: none;
+}
+
+h1 {
+  text-align: center;
+  font-size: 27pt;
+}
+
+h2 {
+  text-decoration: underline;
+  font-size: 19pt;
+}
+
+h3 {
+  margin-bottom: 0;
+}
+
+
+article p:last-child {
+  font-style: none;
+}
+
+article {
+  position: relative;
+}
+
+
+p.date {
+  position: absolute;
+  top: 0;
+  right:0;
+  font-style: normal;
+}
+
+ul {
+  margin-top: 0;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-style: italic;
+}
+
+
+#awards li {display: inline;}

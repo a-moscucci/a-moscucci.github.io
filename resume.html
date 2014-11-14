@@ -2,10 +2,15 @@
 <html>
   <head>
     <meta charset="UTF-8"/>
-    <title>My Resume</title>
+    <link href="http://fonts.googleapis.com/css?family=Questrial|Antic+Didone" rel="stylesheet"/>
+    <link href="css/web.css" media="screen" rel="stylesheet" />
+    <link href="css/print.css" media= "print" rel="stylesheet" />
+    <title>Alessandra Moscucci's Resume</title>
     </head>
 
+
     <body>
+      <div id="container">
       <header>
         <h1>Alessandra Moscucci</h1>
         <address>
@@ -20,6 +25,7 @@
           <li><a href="#education">Education</a></li>
           <li><a href="#experience">Experience</a></li>
           <li><a href="#computerskills">Computer Skills</a></li>
+          <li><a href="javascript:window.print ();">Print</a></li>
         </ul>
       </nav>
 
@@ -29,15 +35,28 @@
         <h2 id="education">Education</h2>
         <article>
 
-          <h3>University of Miami, Miami FL, 2012-Present</h3>
-            <p>School of Communications, Public Relations Major<br/>
-            Double Minor in Marketing and Digital Media</p>
+          <h3>University of Miami, Miami FL</h3>
+            <p>School of Communications, Public Relations Major</p>
+            <p>Double Minor in Marketing and Digital Media</p>
+            <p class="date">2012-Present</p>
 
-          <h3>Miami Country Day School, Miami FL, 2008-2012</h3>
+        </article>
+
+        <article>
+          <h3>Miami Country Day School, Miami FL</h3>
             <p>High School Diploma</p>
+            <p class="date">2008-2012</p>
+        </article>
 
-          <h3>Academic Awards and Leadership</h3>
-            <p> Directors List, Community Service Award, Journalistic Leadership Award, History Honors Society, National Honors Society</p>
+        <article>
+          <h4>Academic Awards and Leadership</h4>
+            <ul id="awards">
+             <li>Directors List,</li>
+             <li>Community Service Award,</li>
+             <li>Journalistic Leadership Award,</li>
+             <li>History Honors Society,</li>
+             <li>National Honors Society.</li>
+           </ul>
 
         </article>
       </section>
@@ -48,39 +67,49 @@
         <h2 id="experience">Experience</h2>
 
         <article>
-
-          <h3><a href="http://www.nphusa.org/s/769/start.aspx">Nuestros Pequeños Hermanos</a>, Wellington FL, Spring 2012, 2013, 2014</h3>
+          <h3><a href="http://www.nphusa.org/s/769/start.aspx">Nuestros Pequeños Hermanos</a>, Wellington FL</h3>
             <p>Silent Auction Coordinator</p>
-              <ul>
-              <li>Silent auction coordinator for a luncheon to benefit the NPH orphanage and the Chateaublond Equestrian Center in Haiti, which raised 5,000 dollars in 2014.</li>
+            <p class="date">Spring 2012, 2013, 2014</p>
+            <ul>
+              <li class="list">Silent auction coordinator for a luncheon to benefit the NPH orphanage and the Chateaublond Equestrian Center in Haiti, which raised 5,000 dollars in 2014.</li>
             </ul>
+          </article>
 
-          <h3>Locations for Reel, Miami FL, Summer 2012-2013</h3>
+        <article>
+          <h3>Locations for Reel, Miami FL</h3>
           <p>Intern</p>
+          <p class="date">Summer 2012-2013</p>
           <ul>
-            <li>Managed commercial locations.</li>
-            <li>Worked as a production assistant on various commercials and music videos.</li>
+            <li class="list">Managed commercial locations.</li>
+            <li class="list">Worked as a production assistant on various commercials and music videos.</li>
           </ul>
+        </article>
 
-          <h3><a href="http://www.med.miami.edu/news/media-contacts">University of Miami Medical Communications</a>, Miami FL, Summer 2011, Spring 2013</h3>
+        <article>
+          <h3><a href="http://www.med.miami.edu/news/media-contacts">University of Miami Medical Communications</a>, Miami FL</h3>
           <p>Intern</p>
+          <p class="date">Summer 2011, Spring 2013</p>
           <ul>
-            <li>Managed Twitter and Facebook. Attracted more attention to social media outlets.</li>
+            <li>Managed Twitter and Facebook.</li>
+            <li>Attracted more attention to social media outlets.</li>
             <li>Wrote an article for their online website.</li>
             <li>Wrote copy for UHealth System website.</li>
             <li>Wrote press releases.</li>
             <li>Observed during filming for CBS HealthWatch.</li>
           </ul>
+        </article>
 
+        <article>
           <h3>Miami Country Day School, Miami FL, 2008-2012</h3>
             <p>Editor in Chief of <a href="http://www.thespartacus.com/">The Spartacus</a><p>
+            <p class="date">2008-2012</p>
               <ul>
-                <li>In charge of story ideas. Attracted readers to newspaper.</li>
+                <li>In charge of story ideas.</li>
+                <li>Attracted readers to newspaper.</li>
                 <li>Gained funds through advertisements placed in newspaper.</li>
                 <li>Utilized social networks to gain student involvement through Facebook and Twitter.</li>
               </ul>
-
-        </article>
+            </article>
       </section>
 <!--EXPERIENCE section END -->
 
@@ -88,7 +117,7 @@
       <section>
         <h2 id="computerskills">Computer Skills</h2>
         <article>
-          <ul>
+          <ul id="skills">
             <li>Efficient in Microsoft Word, Microsoft Publisher, Excel, PowerPoint</li>
             <li>Adept in Adobe InDesign and Adobe Photoshop</li>
             <li>Proficient in social network communication such as Facebook, Twitter and <a href="http://www.linkedin.com/pub/alessandra-moscucci/4a/604/607">LinkedIn</a></li>
@@ -97,7 +126,7 @@
       </section>
 <!-- END-->
     </main>
-
+  </div>
     </body>
 
     </html>
