@@ -1,0 +1,156 @@
+@media (max-width: 320px) {
+
+body { font-family: "Questrial", sans-serif;
+font-size: 16px;
+line-height: 1.2;
+text-align: left;
+color: black;
+background-color: rgb(223,209,189);
+background-image: none;
+text-align: left;
+}
+
+p {
+  font-size: 80%;
+}
+
+
+.kwicks > li {
+  height: 50px;
+  /* overridden by kwicks but good for when JavaScript is disabled */
+  width: 320px;
+  margin-left: 0;
+  float: left;
+}
+
+.kwicks {
+  display: none;
+  list-style-type: circle;
+  list-style: none;
+  position: relative;
+  margin-right: 0;
+  padding: 0;
+  max-width: 320px;
+  height: 50px;
+}
+.kwicks > * {
+  display: none;
+  overflow: auto;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  top: -20px;
+}
+
+/*
+nav {
+  background: rgba(255,255,255,0.8);
+}
+
+nav ul {
+  text-align: center;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+  padding-left: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  width: 150px;
+}
+*/
+
+#home address {
+  margin-bottom: 0;
+}
+
+
+
+#container {
+  max-width: 320px;
+
+}
+
+#about h2 {
+  text-align: center;
+  margin-left: 0;
+}
+
+#about img {
+  margin-bottom: 10px;
+}
+
+#writing .story {
+  overflow: visible;
+  height: auto;
+  background-color: rgba(255,255,255,0.8);
+  padding: 10px;
+  margin-top: 10px;
+  max-width: 250px;
+}
+
+#writing .full { display: none;
+}
+
+
+#writing a.full {
+  color: rgb(175,175,175);
+  text-decoration: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+
+#writing h3 {
+  font-family: "Questrial", sans-serif;
+  text-align: left;
+}
+
+#resume address {
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#resume li{
+  font-size: 80%;
+}
+
+#resume p.date {
+  display: none;
+}
+
+
+#resume #print {
+  display: none;
+}
+
+#resume h3 a { text-decoration: underline;
+
+}
+
+#resume p a { text-decoration: underline;
+
+}
+
+#resume li a { text-decoration: underline;
+
+}
+
+#photos li {
+  display: block;
+}
+
+#photos img {
+  min-width: 300px;
+  min-height: 300px;
+}
+
+#designs img {
+  max-width: 300px;
+}
+
+
+
+}

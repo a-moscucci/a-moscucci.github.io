@@ -1,0 +1,242 @@
+body { font-family: "Questrial", sans-serif;
+font-size: 16px;
+line-height: 1.2;
+text-align: left;
+color: black;
+background-color: rgb(223,209,189)
+}
+
+h1 {
+  font-family: "Antic Didone", serif;
+}
+
+body {
+  background-image: url(../img/AM2.png);
+  background-repeat: no-repeat;
+  background-position: -40px -100px;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 0;
+  text-align: center;
+  line-height: 3em;
+  z-index: 5;
+
+}
+
+a {
+  text-decoration: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 18px;
+  font-style: bold;
+  color: rgb(175,175,175);
+}
+
+a:hover {
+  color: black;
+
+}
+
+#container {
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+/* Home page starts!!! */
+
+#home h1 {
+  text-align: center;
+}
+
+#home p {
+  text-align: center;
+}
+
+
+#home #container {
+  margin: 0 auto;
+  max-width: 900px;
+  max-height: 400px;
+
+}
+
+
+#home address {
+  margin-bottom: 200px;
+  text-align: center;
+  font-style: normal;
+}
+
+/* ABOUT page starts!!! */
+
+
+#about h2 {
+  margin-left: 180px;
+  padding: 0;
+  clear: both;
+}
+
+#about img {
+  clear: left;
+  border: 1px solid white;
+  float: left;
+  margin-right: 20px;
+}
+
+#about p {
+  clear: right;
+  position: relative;
+  padding-left: 10px;
+}
+#about #signature {
+  margin-bottom: 50px;
+  border: none;
+  float: right;
+}
+
+/* RESUME page starts!!! */
+
+
+#resume address {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#resume h1, h2, h3 {
+  text-align: center;
+  font-family: "Antic Didone", serif;
+}
+
+#resume h3  {
+  text-align: left;
+  margin-bottom: 0;
+  font-family: "Questrial", sans-serif;
+}
+
+#resume section {
+  margin-bottom: 2em;
+}
+
+#resume article {
+  position: relative;
+}
+
+#resume p.date {
+  position: absolute;
+  top: 0;
+  right:0;
+}
+
+
+#resume #awards li {
+  display: inline;
+  padding-left: 0;
+  padding-right: 1px;}
+
+#resume p {
+    margin-top:0;
+    margin-bottom: 0;
+}
+
+#resume #print {
+    float: right;
+    background-color: rgba(255,255,255,0.8);
+    margin-bottom: 50px;
+    width: 200px;
+    text-align: center;
+}
+
+/* WRITING page starts!!! */
+
+#writing .story {
+  height: auto;
+  width: 900px;
+  background-color: rgba(255,255,255,0.8);
+  border: 1px solid white;
+  padding: 10px;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+
+#writing .full {
+  float: right;
+  background-color: rgba(255,255,255,0.8);
+  text-align: center;
+}
+
+
+#writing a.full {
+  color: rgb(175,175,175);
+  text-decoration: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#writing a.full:hover {
+  color: black;
+}
+#writing h2 {
+  clear: both;
+}
+#writing h3 {
+  font-family: "Questrial", sans-serif;
+  text-align: left;
+}
+
+/* DESIGN page starts!!! */
+
+#designs img {
+  margin-top: 0;
+  margin: 0 auto;
+  
+
+}
+
+.picture {
+  text-align: center;
+}
+
+#designs article {
+  border-top: 1px solid black;
+}
+
+
+
+
+/* PHOTOS page starts!!! */
+
+#photos img {
+  border: 1px solid white;
+  margin: 0;
+  height: 296px;
+  width: 296px;
+
+}
+
+#photos img:nth-child(3n) {
+  margin-right: 0;
+}
+
+#photos img:hover {
+  opacity: .8;
+}
+
+#photos #disclaimer {
+  max-height: 280px;
+  max-width: 280px;
+  float: right;
+}
+
+#photos li{
+  display: inline-block;
+}
+
+
+
+#photos ul {
+  padding: 0;
+  z-index: 10;
+}

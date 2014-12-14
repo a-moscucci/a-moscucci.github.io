@@ -14,6 +14,10 @@ font-family: "Times New Roman", serif;
   width: 100%;
 }
 
+nav {
+  display:none;
+}
+
 address {
   text-align: center;
 }
@@ -70,3 +74,7 @@ p {
 
 
 #awards li {display: inline;}
+
+#print {
+  display: none;
+}
