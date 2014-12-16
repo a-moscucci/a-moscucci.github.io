@@ -42,6 +42,13 @@ p {
   top: -20px;
 }
 
+.kwicks.kwicks-processed > * {
+  margin: 0;
+  position: absolute;
+
+
+}
+
 /*
 nav {
   background: rgba(255,255,255,0.8);
@@ -61,6 +68,10 @@ nav ul li {
 */
 
 #home address {
+  margin-bottom: 100px;
+}
+
+#home h1 {
   margin-bottom: 0;
 }
 
